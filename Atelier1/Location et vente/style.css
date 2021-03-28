@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif
+}
+.nav-link{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+.navbar-brand{
+    color: black;
+    font-weight: 700;
+}
+.main{
+    background:url(image13.jfif) no-repeat;
+    background-size: 100% 100%;
+    width:100% ;
+}
+.main h1{
+    font-size: 4rem;
+    font: weight 7OO;
+
+}
+.card{
+    border: none;
+}
+.main select{
+    height: 40px;
+    width: 90%;
+    outline: none;
+    padding: 0 20px;
+}
+.main span{
+    color: gray;
+    font-weight:600 ;
+}
+.main .btn1{
+    background-color: rgb(236, 69, 8);
+    color: white;
+    outline: none;
+    border: none;
+    width: 90%;
+    height: 40px;
+    margin-top: 32px;
+}
+.btn1:hover{
+    background-color:tomato ;
+    transition: 0.5s;
+}
+.land{
+    background: white ;
+}
+.btn2{
+    background: black;
+    color: white;
+    height: 45px;
+    width: 200px;
+    outline: none;
+    border: none;
+}
+.rent{
+    background:rgb(197, 192, 192) ;
+}
+.btnc{
+    height: 45px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    padding: 10px;
+    font-weight: 500;
+}
+.rent h1{
+    font-weight:700;
+}
+.Home{
+    background:rgb(197, 192, 192) ;
+}
+.Home h1{
+    font-weight:700;
+}
+.btnf{
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 200px;
+    outline: none;
+    border: none;
+    display: inline-block;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.fab{
+    font-size: 25px;
+    color: gray;
+}
+.fab:hover{
+    color: white;
+    transition: 0.5s;
+}
